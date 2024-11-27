@@ -6,7 +6,7 @@ export const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="w-full bg-gray-800 p-4">
+        <nav className="w-full bg-gray-800 p-4 mb-[20rem]">
             {/* Burger Menu Icon */}
             <div className="sm:hidden flex justify-between items-center">
                 <h1 className="text-white text-xl">Travel Manager</h1>

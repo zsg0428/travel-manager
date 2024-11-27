@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='flex flex-col justify-between h-[100vh] relative'>
+      <body className=' h-[100vh] relative'>
     <Header/>
         {children}
     {/*<Footer/>*/}
