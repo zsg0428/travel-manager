@@ -27,11 +27,11 @@ export const People = ({name, section, mtq, qtm}) => {
             </div>
             <div className='flex flex-col gap-4 '>
                 <p><strong className='text-yellow-500'> Montreal address:</strong> Montréal (centre-ville) Gare
-                    d'autocars de Montréal 1717, Rue Berri, H2L 4E9</p>
+                    d&apos;autocars de Montréal 1717, Rue Berri, H2L 4E9</p>
                 <p><strong className='text-yellow-500'> Montreal Depature Time:</strong>Dec 27th, 12:00 pm</p>
             </div>
             <div className='flex flex-col gap-4 '>
-                <p><strong className='text-blue-400'> Quebec address:</strong> Québec (centre-ville)Terminus d'autobus de la Gare du Palais 320, Rue Abraham-Martin, G1K 8N2</p>
+                <p><strong className='text-blue-400'> Quebec address:</strong> Québec (centre-ville)Terminus d&apos;autobus de la Gare du Palais 320, Rue Abraham-Martin, G1K 8N2</p>
                 <p><strong className='text-blue-400'> Quebec Depature Time:</strong> Dec 29th, 12:30 pm</p>
             </div>
         </Grid2>
