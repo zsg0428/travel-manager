@@ -22,11 +22,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=' h-[100vh] relative'>
+      <body className=' h-auto relative'>
     <Header/>
         {children}
     {/*<Footer/>*/}
-      </body>gi
+      </body>
     </html>
   );
 }
