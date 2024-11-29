@@ -4,29 +4,31 @@ import Header from "@/app/_components/Header";
 import {Footer} from "@/app/_components/Footer";
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+    src: "./fonts/GeistVF.woff",
+    variable: "--font-geist-sans",
+    weight: "100 900",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+    src: "./fonts/GeistMonoVF.woff",
+    variable: "--font-geist-mono",
+    weight: "100 900",
 });
 
 export const metadata = {
-  title: "Travel Manager For Dempsey and Mavis",
-  description: "Mavis and Dempsey Travel Manager",
+    title: "Travel Manager For Dempsey and Mavis",
+    description: "Mavis and Dempsey Travel Manager",
 };
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className=' h-auto relative'>
-    <Header/>
-        {children}
-    {/*<Footer/>*/}
-      </body>
-    </html>
-  );
+export default function RootLayout({children}) {
+    return (
+        <html lang="en">
+        <body>
+        <div className='grid grid-rows-[auto_1fr_auto] h-screen'>
+            <Header/>
+            {children}
+            <Footer/>
+        </div>
+        </body>
+        </html>
+    );
 }

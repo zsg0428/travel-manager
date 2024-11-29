@@ -1,5 +1,6 @@
 import {People} from "@/app/_components/People";
 import {PageLayout} from "@/app/_components/PageLayout";
+import {TitleSection} from "@/app/_components/TitleSection";
 
 
 export const metadata = {
@@ -7,21 +8,21 @@ export const metadata = {
     description: 'Train page'
 }
 const Page = () => {
-    return <>
-        <h1 className='text-center text-2xl underline'>Train
+    return <PageLayout>
+        <TitleSection>Train
             <p><span className='text-yellow-500'>
 
             Time:
         </span> Tue. Dec. 24, 2024 </p>
             <p> <span className='text-yellow-500'>Location:</span> Union Station</p>
-        </h1>
+        </TitleSection>
         <PageLayout>
             <People name='Mavis' section='train' mtq='/train/minxian-via.pdf'
             />
             <People name='Dempsey' section='train' mtq='/train/shengge-via.pdf'
             />
         </PageLayout>
-    </>
+    </PageLayout>
 
 
 }

@@ -5,8 +5,8 @@ export const People = ({name, section, mtq, qtm}) => {
 
     // Bus section
     if (section === 'bus') {
-        return <Grid2 item size={{sm: 12, md: 6, lg: 6}}
-                      className='text-center flex flex-col gap-4 justify-center items-center'>
+        return <Grid2  item size={{sm: 12, md: 6, lg: 6}}
+                      className='text-center flex flex-col gap-4 justify-center items-center mx-auto'>
             <p className={name === 'Mavis' ? 'text-pink-400 text-xl' : 'text-blue-400 text-xl'}>{name}:</p>
             <div className='flex gap-4  h-auto mx-auto justify-center mt-4'>
                 <Link
@@ -38,7 +38,7 @@ export const People = ({name, section, mtq, qtm}) => {
     }
 
     if (section === 'hotel') {
-        return <Grid2 item size={{sm: 12, md: 6, lg: 6}} className='text-center'>
+        return <Grid2 item size={{sm: 12, md: 6, lg: 6}} className='text-center mx-auto'>
             <p className={name === 'Mavis' ? 'text-pink-400 text-xl' : 'text-blue-400 text-xl'}>{name}:</p>
             <div className='flex gap-4  h-auto mx-auto justify-center mt-4 items-center'>
             <Link
@@ -56,7 +56,7 @@ export const People = ({name, section, mtq, qtm}) => {
     }
 
     if (section ==='train') {
-        return <Grid2 item size={{sm: 12, md: 6, lg: 6}} className='text-center'>
+        return <Grid2 item size={{sm: 12, md: 6, lg: 6}} className='text-center mx-auto'>
             <p className={name === 'Mavis' ? 'text-pink-400 text-xl' : 'text-blue-400 text-xl'}>{name}:</p>
             <div className='flex gap-4  h-auto mx-auto justify-center mt-4'>
                 <Link
@@ -73,7 +73,7 @@ export const People = ({name, section, mtq, qtm}) => {
 
 
     if (section ==='flight') {
-        return <Grid2 item size={{sm: 12, md: 6, lg: 6}} className='text-center'>
+        return <Grid2 item size={{sm: 12, md: 6, lg: 6}} className='text-center mx-auto'>
             <p className={name === 'Mavis' ? 'text-pink-400 text-xl' : 'text-blue-400 text-xl'}>{name}:</p>
             <div className='flex gap-4  h-auto mx-auto justify-center mt-4'>
                 <Link
