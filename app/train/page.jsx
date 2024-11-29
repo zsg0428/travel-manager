@@ -13,7 +13,7 @@ const Page = () => {
             <p><span className='text-yellow-500'>
 
             Time:
-        </span> Tue. Dec. 24, 2024 </p>
+        </span> Tue. Dec. 24, 2024, 11:32am - 17:05pm </p>
             <p> <span className='text-yellow-500'>Location:</span> Union Station</p>
         </TitleSection>
         <PageLayout>
