@@ -4,13 +4,13 @@ import {TitleSection} from "@/app/_components/TitleSection";
 
 
 export const metadata = {
-    title: 'Places page',
-    description: 'Place page'
+    title: 'Quebec page',
+    description: 'Quebec page'
 }
 const Page = () => {
     return <PageLayout>
         <TitleSection>
-            Places</TitleSection>
+            Quebec</TitleSection>
 
         <div className='mx-auto text-center my-4'>
             <span className='text-yellow-500 text-xl'>Wednesday, Dec 25</span>
