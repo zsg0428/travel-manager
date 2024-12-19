@@ -38,7 +38,7 @@ export const People = ({name, section, mtq, qtm}) => {
     }
 
     if (section === 'hotel') {
-        return <Grid2 item size={{sm: 12, md: 6, lg: 6}} className='text-center mx-auto'>
+        return <Grid2 item size={{sm: 12, md: 6, lg: 6}} className='text-center mx-auto my-3'>
             <p className={name === 'Mavis' ? 'text-pink-400 text-xl' : 'text-blue-400 text-xl'}>{name}:</p>
             <div className='flex gap-4  h-auto mx-auto justify-center mt-4 items-center'>
             <Link
