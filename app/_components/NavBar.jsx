@@ -30,6 +30,8 @@ export const NavBar = () => {
                 <NavListItem to='/bus'>Bus</NavListItem>
                 <NavListItem to='/flight'>Flight</NavListItem>
                 <NavListItem to='/train'>Train</NavListItem>
+                <NavListItem to='/places'>Places</NavListItem>
+
             </ul>
         </nav>
     );
